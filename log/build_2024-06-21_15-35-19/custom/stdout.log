@@ -1,0 +1,81 @@
+running egg_info
+writing ../../build/custom/custom.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom/custom.egg-info/dependency_links.txt
+writing entry points to ../../build/custom/custom.egg-info/entry_points.txt
+writing requirements to ../../build/custom/custom.egg-info/requires.txt
+writing top-level names to ../../build/custom/custom.egg-info/top_level.txt
+reading manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+running build
+running build_py
+copying custom/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+copying custom/RPCServer.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+copying custom/MjpgServer.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+copying custom/Camera.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+copying custom/ActionGroupDict.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+copying custom/spiderpi.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+copying custom/SpiderPi/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/yaml_handle.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/HiwonderSDK/Misc.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/Board.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/Mpu6050.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/PWMServoMoveDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/ASR.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/Sonar.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/PID.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/TTS.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/ActionGroupControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/BuzzerControlDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/BusServoReadStatus.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/PWMServo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/ActionGroupControlDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/BusServoCmd.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/HiwonderSDK/BusServoMove.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+copying custom/SpiderPi/Functions/RemoteControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/lab_adjust.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ASRControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Head_Control.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Tag_Detect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ColorDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/PickAction.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Color_Warning.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Avoidance.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Transport.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/apriltag.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ApriltagDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Color_Recognize.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Self_Transport.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ImgAddText.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Transport_Cleaning.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/kinematics_control_demo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Follow.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Running.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ColorDetectAndTTS.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/GestureMeasuring.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Face_Detect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ColorTrack.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/FaceDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/EmptyFunc.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/VisualPatrol.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/CameraCalibration/TestCalibration.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/Calibration.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/GenerateLoadingPicture.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/CalibrationConfig.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/CollectCalibrationPicture.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/GenerateCalibrationPlate.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/Functions/import_path/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions/import_path
+running install
+running install_lib
+running install_data
+copying resource/custom -> /home/wshengggg/ros2_ws/install/custom/share/ament_index/resource_index/packages
+copying package.xml -> /home/wshengggg/ros2_ws/install/custom/share/custom
+running install_egg_info
+removing '/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/custom/custom.egg-info to /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spiderpi script to /home/wshengggg/ros2_ws/install/custom/lib/custom
+writing list of installed files to '/home/wshengggg/ros2_ws/build/custom/install.log'

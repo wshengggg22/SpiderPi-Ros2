@@ -1,0 +1,23 @@
+[0.675s] Invoking command in '/home/wshengggg/test_ws/src/py_srvcli': PYTHONPATH=/home/wshengggg/test_ws/build/py_srvcli/prefix_override:/home/wshengggg/test_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/wshengggg/test_ws/build/py_srvcli/build install --record /home/wshengggg/test_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.819s] running egg_info
+[0.827s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.828s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.828s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.846s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.847s] adding license file 'LICENSE'
+[0.848s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.849s] running build
+[0.849s] running build_py
+[0.849s] copying py_srvcli/__init__.py -> /home/wshengggg/test_ws/build/py_srvcli/build/lib/py_srvcli
+[0.850s] running install
+[0.855s] running install_lib
+[0.864s] running install_data
+[0.864s] copying resource/py_srvcli -> /home/wshengggg/test_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.864s] copying package.xml -> /home/wshengggg/test_ws/install/py_srvcli/share/py_srvcli
+[0.864s] running install_egg_info
+[0.872s] removing '/home/wshengggg/test_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.872s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/wshengggg/test_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.873s] running install_scripts
+[0.949s] writing list of installed files to '/home/wshengggg/test_ws/build/py_srvcli/install.log'
+[0.973s] Invoked command in '/home/wshengggg/test_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/wshengggg/test_ws/build/py_srvcli/prefix_override:/home/wshengggg/test_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/wshengggg/test_ws/build/py_srvcli/build install --record /home/wshengggg/test_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

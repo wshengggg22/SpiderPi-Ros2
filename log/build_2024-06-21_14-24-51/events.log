@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000231] (custom) JobQueued: {'identifier': 'custom', 'dependencies': OrderedDict()}
+[0.000245] (custom) JobStarted: {'identifier': 'custom'}
+[0.099573] (-) TimerEvent: {}
+[0.199880] (-) TimerEvent: {}
+[0.300203] (-) TimerEvent: {}
+[0.400533] (-) TimerEvent: {}
+[0.500758] (-) TimerEvent: {}
+[0.572006] (custom) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/custom', 'build', '--build-base', '/home/wshengggg/ros2_ws/build/custom/build', 'install', '--record', '/home/wshengggg/ros2_ws/build/custom/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wshengggg/ros2_ws/src/custom', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wshengggg', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wshengggg', 'OLDPWD': '/home/wshengggg/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'SYSTEMD_EXEC_PID': '4520', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/wshengggg/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wshengggg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wshengggg', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/wshengggg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wshengggg-Legion-Slim-7-16IRH8:@/tmp/.ICE-unix/1774,unix/wshengggg-Legion-Slim-7-16IRH8:/tmp/.ICE-unix/1774', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9db0826a_971e_4c8c_a29c_d9bec5dd9d40', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/wshengggg/ros2_ws/install/py_srvcli:/home/wshengggg/ros2_ws/install/custom:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wshengggg/ros2_ws/build/custom', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wshengggg/ros2_ws/build/custom/prefix_override:/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages:/home/wshengggg/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.600816] (-) TimerEvent: {}
+[0.701097] (-) TimerEvent: {}
+[0.723277] (custom) StdoutLine: {'line': b'running egg_info\n'}
+[0.730406] (custom) StdoutLine: {'line': b'writing ../../build/custom/custom.egg-info/PKG-INFO\n'}
+[0.740335] (custom) StdoutLine: {'line': b'writing dependency_links to ../../build/custom/custom.egg-info/dependency_links.txt\n'}
+[0.740531] (custom) StdoutLine: {'line': b'writing entry points to ../../build/custom/custom.egg-info/entry_points.txt\n'}
+[0.740619] (custom) StdoutLine: {'line': b'writing requirements to ../../build/custom/custom.egg-info/requires.txt\n'}
+[0.740682] (custom) StdoutLine: {'line': b'writing top-level names to ../../build/custom/custom.egg-info/top_level.txt\n'}
+[0.767347] (custom) StdoutLine: {'line': b"reading manifest file '../../build/custom/custom.egg-info/SOURCES.txt'\n"}
+[0.767581] (custom) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.768450] (custom) StdoutLine: {'line': b"writing manifest file '../../build/custom/custom.egg-info/SOURCES.txt'\n"}
+[0.768485] (custom) StdoutLine: {'line': b'running build\n'}
+[0.768515] (custom) StdoutLine: {'line': b'running build_py\n'}
+[0.768926] (custom) StdoutLine: {'line': b'copying custom/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom\n'}
+[0.769052] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Spiderpi.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769103] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769197] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/RPCServer.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769302] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/MjpgServer.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769404] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Camera.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769454] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/ActionGroupDict.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769484] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/yaml_handle.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi\n'}
+[0.769707] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/RemoteControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.769776] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/lab_adjust.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.769842] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/ASRControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.769906] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Head_Control.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.769967] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770033] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Tag_Detect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770092] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/ColorDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770159] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/PickAction.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770219] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Color_Warning.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770283] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Avoidance.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770343] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Transport.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770403] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/apriltag.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770477] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/ApriltagDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770546] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Color_Recognize.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770611] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Self_Transport.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770684] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/ImgAddText.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770745] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Transport_Cleaning.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770811] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/kinematics_control_demo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770875] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Follow.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770937] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Running.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.770999] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/ColorDetectAndTTS.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771065] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/GestureMeasuring.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771126] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/Face_Detect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771186] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/ColorTrack.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771248] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/FaceDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771311] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/EmptyFunc.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771372] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/VisualPatrol.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions\n'}
+[0.771590] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/TestCalibration.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.771671] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/Calibration.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.771727] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.771790] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/GenerateLoadingPicture.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.771854] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/CalibrationConfig.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.771913] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/CollectCalibrationPicture.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.771973] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/CameraCalibration/GenerateCalibrationPlate.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration\n'}
+[0.772236] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/Misc.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772341] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/Board.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772381] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/Mpu6050.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772435] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/PWMServoMoveDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772496] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/ASR.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772559] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772633] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/Sonar.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772691] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/PID.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772800] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/TTS.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772880] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/ActionGroupControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772948] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/BuzzerControlDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.772999] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/BusServoReadStatus.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.773054] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/PWMServo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.773119] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/ActionGroupControlDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.773166] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/BusServoCmd.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.773211] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/HiwonderSDK/BusServoMove.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK\n'}
+[0.773375] (custom) StdoutLine: {'line': b'copying custom/SpiderPi/Functions/import_path/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions/import_path\n'}
+[0.774226] (custom) StdoutLine: {'line': b'running install\n'}
+[0.777667] (custom) StdoutLine: {'line': b'running install_lib\n'}
+[0.785620] (custom) StdoutLine: {'line': b'copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Spiderpi.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi\n'}
+[0.786696] (custom) StdoutLine: {'line': b'byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Spiderpi.py to Spiderpi.cpython-310.pyc\n'}
+[0.787456] (custom) StdoutLine: {'line': b'running install_data\n'}
+[0.787534] (custom) StdoutLine: {'line': b'copying resource/custom -> /home/wshengggg/ros2_ws/install/custom/share/ament_index/resource_index/packages\n'}
+[0.787591] (custom) StdoutLine: {'line': b'copying package.xml -> /home/wshengggg/ros2_ws/install/custom/share/custom\n'}
+[0.787625] (custom) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.795686] (custom) StdoutLine: {'line': b"removing '/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.795774] (custom) StdoutLine: {'line': b'Copying ../../build/custom/custom.egg-info to /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info\n'}
+[0.796332] (custom) StdoutLine: {'line': b'running install_scripts\n'}
+[0.801184] (-) TimerEvent: {}
+[0.875639] (custom) StdoutLine: {'line': b'Installing Spiderpi script to /home/wshengggg/ros2_ws/install/custom/lib/custom\n'}
+[0.876552] (custom) StdoutLine: {'line': b"writing list of installed files to '/home/wshengggg/ros2_ws/build/custom/install.log'\n"}
+[0.891510] (custom) CommandEnded: {'returncode': 0}
+[0.900206] (custom) JobEnded: {'identifier': 'custom', 'rc': 0}
+[0.900456] (-) EventReactorShutdown: {}

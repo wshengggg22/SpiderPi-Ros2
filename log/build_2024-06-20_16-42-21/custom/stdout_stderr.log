@@ -1,0 +1,215 @@
+running egg_info
+creating ../../build/custom/custom.egg-info
+writing ../../build/custom/custom.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom/custom.egg-info/dependency_links.txt
+writing requirements to ../../build/custom/custom.egg-info/requires.txt
+writing top-level names to ../../build/custom/custom.egg-info/top_level.txt
+writing manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+reading manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wshengggg/test_ws/build/custom/build
+creating /home/wshengggg/test_ws/build/custom/build/lib
+creating /home/wshengggg/test_ws/build/custom/build/lib/custom
+copying custom/__init__.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom
+creating /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/__init__.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/RPCServer.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/MjpgServer.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/Camera.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/ActionGroupDict.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/spiderpi.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+copying custom/SpiderPi/yaml_handle.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi
+creating /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/RemoteControl.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/lab_adjust.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ASRControl.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Head_Control.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/__init__.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Tag_Detect.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ColorDetect.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/PickAction.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Color_Warning.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Avoidance.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Transport.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/apriltag.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ApriltagDetect.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Color_Recognize.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Self_Transport.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ImgAddText.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Transport_Cleaning.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/kinematics_control_demo.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Follow.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Running.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ColorDetectAndTTS.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/GestureMeasuring.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/Face_Detect.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/ColorTrack.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/FaceDetect.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/EmptyFunc.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+copying custom/SpiderPi/Functions/VisualPatrol.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions
+creating /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/TestCalibration.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/Calibration.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/__init__.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/GenerateLoadingPicture.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/CalibrationConfig.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/CollectCalibrationPicture.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+copying custom/SpiderPi/CameraCalibration/GenerateCalibrationPlate.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+creating /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/Misc.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/Board.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/Mpu6050.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/PWMServoMoveDemo.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/ASR.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/__init__.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/Sonar.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/PID.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/TTS.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/ActionGroupControl.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/BuzzerControlDemo.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/BusServoReadStatus.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/PWMServo.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/ActionGroupControlDemo.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/BusServoCmd.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+copying custom/SpiderPi/HiwonderSDK/BusServoMove.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK
+creating /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/import_path
+copying custom/SpiderPi/Functions/import_path/__init__.py -> /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/import_path
+running install
+running install_lib
+creating /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom
+creating /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+creating /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/RemoteControl.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/lab_adjust.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/ASRControl.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Head_Control.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/__init__.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Tag_Detect.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/ColorDetect.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/PickAction.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Color_Warning.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Avoidance.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Transport.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/apriltag.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/ApriltagDetect.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Color_Recognize.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Self_Transport.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/ImgAddText.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Transport_Cleaning.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/kinematics_control_demo.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Follow.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+creating /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/import_path
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/import_path/__init__.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/import_path
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Running.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/ColorDetectAndTTS.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/GestureMeasuring.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/Face_Detect.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/ColorTrack.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/FaceDetect.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/EmptyFunc.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Functions/VisualPatrol.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/__init__.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/RPCServer.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/MjpgServer.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+creating /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/TestCalibration.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/Calibration.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/__init__.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/GenerateLoadingPicture.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/CalibrationConfig.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/CollectCalibrationPicture.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration/GenerateCalibrationPlate.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/Camera.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/ActionGroupDict.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/spiderpi.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/yaml_handle.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi
+creating /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/Misc.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/Board.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/Mpu6050.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/PWMServoMoveDemo.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/ASR.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/__init__.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/Sonar.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/PID.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/TTS.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/ActionGroupControl.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/BuzzerControlDemo.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/BusServoReadStatus.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/PWMServo.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/ActionGroupControlDemo.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/BusServoCmd.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/SpiderPi/HiwonderSDK/BusServoMove.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK
+copying /home/wshengggg/test_ws/build/custom/build/lib/custom/__init__.py -> /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/RemoteControl.py to RemoteControl.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/lab_adjust.py to lab_adjust.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/ASRControl.py to ASRControl.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Head_Control.py to Head_Control.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Tag_Detect.py to Tag_Detect.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/ColorDetect.py to ColorDetect.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/PickAction.py to PickAction.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Color_Warning.py to Color_Warning.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Avoidance.py to Avoidance.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Transport.py to Transport.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/apriltag.py to apriltag.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/ApriltagDetect.py to ApriltagDetect.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Color_Recognize.py to Color_Recognize.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Self_Transport.py to Self_Transport.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/ImgAddText.py to ImgAddText.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Transport_Cleaning.py to Transport_Cleaning.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/kinematics_control_demo.py to kinematics_control_demo.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Follow.py to Follow.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/import_path/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Running.py to Running.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/ColorDetectAndTTS.py to ColorDetectAndTTS.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/GestureMeasuring.py to GestureMeasuring.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/Face_Detect.py to Face_Detect.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/ColorTrack.py to ColorTrack.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/FaceDetect.py to FaceDetect.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/EmptyFunc.py to EmptyFunc.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Functions/VisualPatrol.py to VisualPatrol.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/RPCServer.py to RPCServer.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/MjpgServer.py to MjpgServer.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/TestCalibration.py to TestCalibration.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/Calibration.py to Calibration.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/GenerateLoadingPicture.py to GenerateLoadingPicture.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/CalibrationConfig.py to CalibrationConfig.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/CollectCalibrationPicture.py to CollectCalibrationPicture.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/CameraCalibration/GenerateCalibrationPlate.py to GenerateCalibrationPlate.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/Camera.py to Camera.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/ActionGroupDict.py to ActionGroupDict.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/spiderpi.py to spiderpi.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/yaml_handle.py to yaml_handle.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/Misc.py to Misc.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/Board.py to Board.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/Mpu6050.py to Mpu6050.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/PWMServoMoveDemo.py to PWMServoMoveDemo.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/ASR.py to ASR.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/Sonar.py to Sonar.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/PID.py to PID.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/TTS.py to TTS.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/ActionGroupControl.py to ActionGroupControl.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/BuzzerControlDemo.py to BuzzerControlDemo.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/BusServoReadStatus.py to BusServoReadStatus.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/PWMServo.py to PWMServo.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/ActionGroupControlDemo.py to ActionGroupControlDemo.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/BusServoCmd.py to BusServoCmd.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/SpiderPi/HiwonderSDK/BusServoMove.py to BusServoMove.cpython-310.pyc
+byte-compiling /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wshengggg/test_ws/install/custom/share/ament_index
+creating /home/wshengggg/test_ws/install/custom/share/ament_index/resource_index
+creating /home/wshengggg/test_ws/install/custom/share/ament_index/resource_index/packages
+copying resource/custom -> /home/wshengggg/test_ws/install/custom/share/ament_index/resource_index/packages
+copying package.xml -> /home/wshengggg/test_ws/install/custom/share/custom
+running install_egg_info
+Copying ../../build/custom/custom.egg-info to /home/wshengggg/test_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wshengggg/test_ws/build/custom/install.log'

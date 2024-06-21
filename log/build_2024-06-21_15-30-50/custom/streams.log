@@ -1,0 +1,117 @@
+[0.706s] Invoking command in '/home/wshengggg/ros2_ws/src/custom': PYTHONPATH=/home/wshengggg/ros2_ws/build/custom/prefix_override:/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom build --build-base /home/wshengggg/ros2_ws/build/custom/build install --record /home/wshengggg/ros2_ws/build/custom/install.log --single-version-externally-managed install_data
+[0.869s] running egg_info
+[0.877s] writing ../../build/custom/custom.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/custom/custom.egg-info/dependency_links.txt
+[0.877s] writing entry points to ../../build/custom/custom.egg-info/entry_points.txt
+[0.877s] writing requirements to ../../build/custom/custom.egg-info/requires.txt
+[0.877s] writing top-level names to ../../build/custom/custom.egg-info/top_level.txt
+[0.894s] reading manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+[0.894s] adding license file 'LICENSE'
+[0.895s] writing manifest file '../../build/custom/custom.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.895s] copying custom/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+[0.895s] copying custom/RPCServer.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+[0.895s] copying custom/MjpgServer.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+[0.895s] copying custom/Camera.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+[0.895s] copying custom/ActionGroupDict.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+[0.895s] copying custom/spiderpi.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom
+[0.895s] copying custom/SpiderPi/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi
+[0.895s] copying custom/SpiderPi/yaml_handle.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi
+[0.895s] creating /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.895s] copying custom/HiwonderSDK/Misc.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/Board.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/Mpu6050.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/PWMServoMoveDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/ASR.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/Sonar.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/PID.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/TTS.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/ActionGroupControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/BuzzerControlDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/BusServoReadStatus.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/PWMServo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/ActionGroupControlDemo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/BusServoCmd.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.896s] copying custom/HiwonderSDK/BusServoMove.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK
+[0.897s] copying custom/SpiderPi/Functions/RemoteControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/lab_adjust.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/ASRControl.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/Head_Control.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/Tag_Detect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/ColorDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/PickAction.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/Color_Warning.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/Avoidance.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/Transport.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/apriltag.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/ApriltagDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.897s] copying custom/SpiderPi/Functions/Color_Recognize.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/Self_Transport.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/ImgAddText.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/Transport_Cleaning.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/kinematics_control_demo.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/Follow.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/Running.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/ColorDetectAndTTS.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/GestureMeasuring.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/Face_Detect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/ColorTrack.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/FaceDetect.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/EmptyFunc.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.898s] copying custom/SpiderPi/Functions/VisualPatrol.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions
+[0.899s] copying custom/SpiderPi/CameraCalibration/TestCalibration.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/CameraCalibration/Calibration.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/CameraCalibration/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/CameraCalibration/GenerateLoadingPicture.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/CameraCalibration/CalibrationConfig.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/CameraCalibration/CollectCalibrationPicture.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/CameraCalibration/GenerateCalibrationPlate.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/CameraCalibration
+[0.899s] copying custom/SpiderPi/Functions/import_path/__init__.py -> /home/wshengggg/ros2_ws/build/custom/build/lib/custom/SpiderPi/Functions/import_path
+[0.900s] running install
+[0.904s] running install_lib
+[0.912s] creating /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/Misc.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/Board.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/Mpu6050.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/PWMServoMoveDemo.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/ASR.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/__init__.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/Sonar.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.912s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/PID.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/TTS.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/ActionGroupControl.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/BuzzerControlDemo.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/BusServoReadStatus.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/PWMServo.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/ActionGroupControlDemo.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/BusServoCmd.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.913s] copying /home/wshengggg/ros2_ws/build/custom/build/lib/custom/HiwonderSDK/BusServoMove.py -> /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK
+[0.914s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/Misc.py to Misc.cpython-310.pyc
+[0.914s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/Board.py to Board.cpython-310.pyc
+[0.915s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/Mpu6050.py to Mpu6050.cpython-310.pyc
+[0.916s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/PWMServoMoveDemo.py to PWMServoMoveDemo.cpython-310.pyc
+[0.916s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/ASR.py to ASR.cpython-310.pyc
+[0.916s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/__init__.py to __init__.cpython-310.pyc
+[0.916s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/Sonar.py to Sonar.cpython-310.pyc
+[0.917s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/PID.py to PID.cpython-310.pyc
+[0.917s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/TTS.py to TTS.cpython-310.pyc
+[0.917s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/ActionGroupControl.py to ActionGroupControl.cpython-310.pyc
+[0.918s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/BuzzerControlDemo.py to BuzzerControlDemo.cpython-310.pyc
+[0.918s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/BusServoReadStatus.py to BusServoReadStatus.cpython-310.pyc
+[0.918s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/PWMServo.py to PWMServo.cpython-310.pyc
+[0.919s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/ActionGroupControlDemo.py to ActionGroupControlDemo.cpython-310.pyc
+[0.919s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/BusServoCmd.py to BusServoCmd.cpython-310.pyc
+[0.919s] byte-compiling /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom/HiwonderSDK/BusServoMove.py to BusServoMove.cpython-310.pyc
+[0.919s] running install_data
+[0.919s] copying resource/custom -> /home/wshengggg/ros2_ws/install/custom/share/ament_index/resource_index/packages
+[0.920s] copying package.xml -> /home/wshengggg/ros2_ws/install/custom/share/custom
+[0.920s] running install_egg_info
+[0.928s] removing '/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info' (and everything under it)
+[0.928s] Copying ../../build/custom/custom.egg-info to /home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages/custom-0.0.0-py3.10.egg-info
+[0.929s] running install_scripts
+[1.012s] Installing spiderpi script to /home/wshengggg/ros2_ws/install/custom/lib/custom
+[1.012s] writing list of installed files to '/home/wshengggg/ros2_ws/build/custom/install.log'
+[1.043s] Invoked command in '/home/wshengggg/ros2_ws/src/custom' returned '0': PYTHONPATH=/home/wshengggg/ros2_ws/build/custom/prefix_override:/home/wshengggg/ros2_ws/install/custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom build --build-base /home/wshengggg/ros2_ws/build/custom/build install --record /home/wshengggg/ros2_ws/build/custom/install.log --single-version-externally-managed install_data

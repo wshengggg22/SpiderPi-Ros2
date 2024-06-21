@@ -1,0 +1,7 @@
+setuptools
+numpy
+opencv-python
+werkzeug
+json-rpc
+pigpio
+RPi.GPIO
